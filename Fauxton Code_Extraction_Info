@@ -1,0 +1,36 @@
+id"_design/Extraction_Info"
+{
+ "id": "_design/Extraction_Info",
+ "key": "_design/Extraction_Info",
+ "value": {
+  "rev": "7-7890b10519b436bd3d7d48a513d2211b"
+ },
+ "doc": {
+  "_id": "_design/Extraction_Info",
+  "_rev": "7-7890b10519b436bd3d7d48a513d2211b",
+  "views": {
+   "PDF_File_Name": {
+    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
+   },
+   "Date_Of_Extraction": {
+    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
+   },
+   "DOP": {
+    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
+   },
+   "Extract": {
+    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
+   },
+   "Total": {
+    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
+   },
+   "Extracted_Data": {
+    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
+   }
+  },
+  "language": "javascript",
+  "options": {
+   "partitioned": true
+  }
+ }
+}
