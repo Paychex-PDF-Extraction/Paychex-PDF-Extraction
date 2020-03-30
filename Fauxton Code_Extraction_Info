@@ -1,32 +1,20 @@
-id"_design/Extraction_Info"
 {
  "id": "_design/Extraction_Info",
  "key": "_design/Extraction_Info",
+ "rev": "03302020"
  "value": {
-  "rev": "7-7890b10519b436bd3d7d48a513d2211b"
+   "rev": "03302020"
+    "key": "_design/Extraction_Info",
  },
  "doc": {
   "_id": "_design/Extraction_Info",
-  "_rev": "7-7890b10519b436bd3d7d48a513d2211b",
-  "views": {
-   "PDF_File_Name": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   },
-   "Date_Of_Extraction": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   },
-   "DOP": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   },
-   "Extract": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   },
-   "Total": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   },
-   "Extracted_Data": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   }
+  "Extraction": {
+    "DOP": "02/01/2020",
+    "Date":"03/30/2020",
+    "Total":"$206.80",
+   "Emp_LName": "Meadows",
+   "Emp_FName": "Timothy"
+   "Vend_Name": "Delta Airlines"
   },
   "language": "javascript",
   "options": {
