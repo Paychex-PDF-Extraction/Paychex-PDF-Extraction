@@ -1,14 +1,29 @@
 {
+ "id": "Extraction_Info",
+ "key": "Extraction_Info",
+ "value": {
+  "rev": "4-b7e25b83117e982ee4c7a50c53ab77ed"
+ },
+ "doc": {
   "_id": "Extraction_Info",
-  "_rev": "1-86ef5f987186b34d70b91194ab0b0db2",
-  "Extraction":[ {
+  "_rev": "4-b7e25b83117e982ee4c7a50c53ab77ed",
+  "Extraction": [
+   {
     "DOP": "02/01/2020",
     "Date": "03/31/2020",
     "Vend_Name": "Delta Airlines",
     "Total": "$206.80",
     "Extract": true,
-    "Emp_FName": "Timothy",
-    "Emp_LName": "Meadows"
-  }
+    "Emp_ID": "Emp_001"
+   },
+   {
+    "DOP": "Example",
+    "Date": "Example",
+    "Vend_Name": "Example",
+    "Total": "Example",
+    "Extract": true,
+    "Emp_ID": "Emp_002"
+   }
   ]
+ }
 }
