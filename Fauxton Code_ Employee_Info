@@ -1,16 +1,25 @@
 {
+ "id": "Employee_Info",
+ "key": "Employee_Info",
+ "value": {
+  "rev": "3-06f4b498016b975bc3296b5dd395c8dd"
+ },
+ "doc": {
   "_id": "Employee_Info",
-  "_rev": "2-3f8066a6e538d46fa512a81fd04fe066",
+  "_rev": "3-06f4b498016b975bc3296b5dd395c8dd",
   "Employee": [
-    {
-      "Emp_FName": "Timothy",
-      "Emp_LName": "Meadows",
-      "Emp_Cont": "EXX-XXX-XXXX"
-    },
-    {
-      "Emp_FName": "Example",
-      "Emp_LName": "Example",
-      "Emp_Cont": "EXample-XXX"
-    }
+   {
+    "Emp_ID": "Emp_001",
+    "Emp_FName": "Timothy",
+    "Emp_LName": "Meadows",
+    "Emp_Cont": "EXX-XXX-XXXX"
+   },
+   {
+    "Emp_ID": "Emp_002",
+    "Emp_FName": "Example",
+    "Emp_LName": "Example",
+    "Emp_Cont": "EXample-XXX"
+   }
   ]
+ }
 }
