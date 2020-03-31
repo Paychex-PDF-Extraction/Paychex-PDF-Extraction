@@ -1,7 +1,7 @@
 {
   "_id": "Extraction_Info",
   "_rev": "1-86ef5f987186b34d70b91194ab0b0db2",
-  "Extraction": {
+  "Extraction":[ {
     "DOP": "02/01/2020",
     "Date": "03/31/2020",
     "Vend_Name": "Delta Airlines",
@@ -10,4 +10,5 @@
     "Emp_FName": "Timothy",
     "Emp_LName": "Meadows"
   }
+  ]
 }
