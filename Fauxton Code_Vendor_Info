@@ -1,24 +1,16 @@
-id"_design/Vendor_Info"
 {
- "id": "_design/Vendor_Info",
- "key": "_design/Vendor_Info",
- "value": {
-  "rev": "4-dc7461840881f6c02469da092110f91e"
- },
- "doc": {
-  "_id": "_design/Vendor_Info",
-  "_rev": "4-dc7461840881f6c02469da092110f91e",
-  "views": {
-   "Vendor_Name": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   },
-   "Temp_ID": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   }
-  },
-  "language": "javascript",
-  "options": {
-   "partitioned": true
-  }
- }
+  "_id": "Vendor_Info",
+  "_rev": "2-6fb7d9d35a0a56f182a84d1cfaa5e356",
+  "Vendor": [
+    {
+      "Vend_Name": "Delta Airlines",
+      "Vend_IND": "Airline",
+      "Temp_ID": "temp001"
+    },
+    {
+      "Vend_Name": "Example",
+      "Vend_IND": "Example",
+      "Temp_ID": "temp002"
+    }
+  ]
 }
