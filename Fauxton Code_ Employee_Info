@@ -1,27 +1,16 @@
-id"_design/Employee_Info"
 {
- "id": "_design/Employee_Info",
- "key": "_design/Employee_Info",
- "value": {
-  "rev": "5-c72b606a1c6894e5b348efd36eedf61b"
- },
- "doc": {
-  "_id": "_design/Employee_Info",
-  "_rev": "5-c72b606a1c6894e5b348efd36eedf61b",
-  "views": {
-   "Emp_LName": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   },
-   "Emp_FName": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   },
-   "Emp_Cont": {
-    "map": "function (doc) {\n  emit(doc._id, 1);\n}"
-   }
-  },
-  "language": "javascript",
-  "options": {
-   "partitioned": true
-  }
- }
+  "_id": "Employee_Info",
+  "_rev": "2-3f8066a6e538d46fa512a81fd04fe066",
+  "Employee": [
+    {
+      "Emp_FName": "Timothy",
+      "Emp_LName": "Meadows",
+      "Emp_Cont": "EXX-XXX-XXXX"
+    },
+    {
+      "Emp_FName": "Example",
+      "Emp_LName": "Example",
+      "Emp_Cont": "EXample-XXX"
+    }
+  ]
 }
