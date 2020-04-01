@@ -1,0 +1,25 @@
+//objects for database 
+using System; 
+namespace pdfextraction; 
+
+Class [] Employees : 
+    {
+        intger Emp_ID= 001;
+string Emp_FName = "Timothy";
+string Emp_LName= "Meadows";
+};
+
+Class [] Extraction:
+    {
+        float DOP= 02/01/2020;
+        float Date= 03/31/2020; 
+        float Total= 206.80; 
+    };
+
+
+Class[] Vendor:
+    {
+        string Vend_Name:"Delta Airlines"; 
+        integer Vend_Ind= 002; 
+        integer temp_ID= 002;
+    };
