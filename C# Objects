@@ -1,11 +1,12 @@
 //objects for database 
 using System; 
+using System.string;
 namespace pdfextraction; 
 
 Class Employees
     {
         static void Main ( string [] Employees) {
-            intger Emp_ID= 001;
+            intger Emp_ID= 001; // how to get it to assign its own integer 
             string Emp_FName = "Timothy";
             string Emp_LName= "Meadows";
             }
@@ -14,21 +15,22 @@ Class Employees
 
 Class Extraction
     {
-        static void Main (float [] Extraction)
+        static void Main (string [] Extraction)
         {
-        float DOP= 02/01/2020;
-        float Date= 03/31/2020; 
-        float Total= 206.80; 
+        string DOP= "02/01/2020";
+        string Date= "03/31/2020"; 
+        String Total= "206.80"; 
         }
     };
 
 
 Class Vendor
     {
-        static void Main (integer []Vendor){
+        static void Main (string []Vendor){
         string Vend_Name:"Delta Airlines"; 
-        integer Vend_Ind= 002; 
-        integer temp_ID= 002;
+        string Vend_ID= "002"; 
+        string Vend_Ind= "Airline"; 
+        string temp_ID= "002"; // how to assign temp_ids, and relate to Vend_Ids 
         }
         
     };
