@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{BCA67602-26BB-476B-BBA4-5011CE94DD53}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="couchdb_api_inter/Program.cs">
+    <Files>
+      <File FileName="couchdb_api_inter/Program.cs" Line="12" Column="49" />
+      <File FileName="couchdb_api_inter/packages.config" Line="1" Column="1" />
+      <File FileName="couchdb_api_inter/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="couchdb_api_inter/db.cs" Line="71" Column="11" />
+      <File FileName="Source Not Available" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="couchdb_api_inter" expanded="True">
+            <Node name="couchdb_api_inter" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.couchdb__api__inter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/pkelley/Projects/couchdb_api_inter/couchdb_api_inter/db.cs" relfile="couchdb_api_inter/db.cs" line="66" column="71" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
