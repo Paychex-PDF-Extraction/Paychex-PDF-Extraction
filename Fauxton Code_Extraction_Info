@@ -1,29 +1,24 @@
 {
- "id": "Extraction_Info",
- "key": "Extraction_Info",
- "value": {
-  "rev": "4-b7e25b83117e982ee4c7a50c53ab77ed"
- },
- "doc": {
   "_id": "Extraction_Info",
-  "_rev": "4-b7e25b83117e982ee4c7a50c53ab77ed",
+  "_rev": "5-9dc8ce2fa8f9660c010794a51d07b822",
   "Extraction": [
-   {
-    "DOP": "02/01/2020",
-    "Date": "03/31/2020",
-    "Vend_Name": "Delta Airlines",
-    "Total": "$206.80",
-    "Extract": true,
-    "Emp_ID": "Emp_001"
-   },
-   {
-    "DOP": "Example",
-    "Date": "Example",
-    "Vend_Name": "Example",
-    "Total": "Example",
-    "Extract": true,
-    "Emp_ID": "Emp_002"
-   }
+    {
+      "DOP": "02/01/2020",
+      "Date": "03/31/2020",
+      "Vend_Name": "Delta Airlines",
+      "Total": "$206.80",
+      "Extract": true,
+      "Emp_ID": "Emp_001",
+      "PDF_Filename": "PDF1"
+    },
+    {
+      "DOP": "Example",
+      "Date": "Example",
+      "Vend_Name": "Example",
+      "Total": "Example",
+      "Extract": true,
+      "Emp_ID": "Emp_002",
+      "PDF Name": "PDF2"
+    }
   ]
- }
 }
