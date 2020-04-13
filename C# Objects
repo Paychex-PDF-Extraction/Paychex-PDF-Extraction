@@ -1,0 +1,40 @@
+Using System;
+Using System.text;
+namespace ClassLibrary_PDFExtraction
+{
+    public class Employee
+    {
+        protected static int EmpNum;
+        public Employee(string FName, string LName, int EmpNum)
+        {
+            FName = "Mario";
+            LName = "Ceballos";
+            EmpNum = 002;
+            EmpNum++;
+        }
+        
+    }
+    public class Vendor
+    {
+        protected static int VendNum;
+        static Vendor() => VendNum = 0;
+        public Vendor (int VendNum, string VendName, string VendInd)
+        {
+            VendNum = 001;
+            VendName = "Delta";
+            VendInd = "Airline";
+            VendNum++;
+        }
+    }
+    public class  Extraction
+    {
+        public Extraction ( string DOP, string Date_of_Extraction, double total, bool extract)
+        {
+
+            DOP = "02/12/2020";
+            Date_of_Extraction = "04/13/2020";
+            total = 132.20;
+            extract = true;
+        }
+    }
+}
