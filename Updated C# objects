@@ -1,0 +1,39 @@
+using System;
+  using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using PdfSharp.Pdf;
+    using PdfSharp.Pdf.Content;
+    using PdfSharp.Pdf.Content.Objects;
+    using PdfSharp.Pdf.IO;
+
+public class PDF
+{
+        string PDF_Filename;
+        }
+public class Extracted_Data
+{
+    string DOP;//date of purchase 
+    string Total; //total dollar amount 
+    string Vend_Name; //vendor name
+    string date; //date of extraction 
+    string Emp_Name;  //employee's full name 
+    getExtract();
+    getPDF();   //method to extract pdf file name from extracted data 
+    getEmployee();// method to extract employee info from extracted data 
+    getVendor(); //method to extract vendor info from extracted data 
+
+}
+protected class Employee_Info {
+    string Emp_Fname;//employee's first name 
+    string Emp_Lname; //employee's last name 
+    string emp_cont;//employee's contact info if available 
+    int emp_ID;//employee identification number  
+}
+protected class Vendor_Info
+{
+    string vend_Name; //vendor name 
+    string vend_Ind; //Vendor industry (for ex: airline) 
+    int vend_id;//vendor id number 
+    int temp_id;//template id number 
+}
